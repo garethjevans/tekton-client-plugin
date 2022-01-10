@@ -32,7 +32,7 @@ jobs:
           tags: jenkinsci/tekton-client-plugin:latest
 
       - name: Install Kubectl
-        uses: azure/setup-kubectl@v1
+        uses: azure/setup-kubectl@v2.0
 
       - name: Set up Helm
         uses: azure/setup-helm@v1.1
